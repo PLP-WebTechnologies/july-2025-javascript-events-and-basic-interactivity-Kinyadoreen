@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color:#222;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#toggle-theme, #increment-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+}
+
+.faq-item {
+    margin: 10px 0;
+}
+
+.faq-question {
+    cursor: pointer;
+}
+
+#form-feedback {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
